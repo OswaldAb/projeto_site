@@ -5,6 +5,8 @@
 
 body {
     background-color: rgb(111, 111, 111);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 0px;
     padding: 0px 0px;
 }
@@ -36,16 +38,13 @@ header figure{
     margin: 0 0 5px 80%;
 }
 
-div#my_photo{
-    background-color: #000000;
-    width: 200px;
-    height: 200px;
-    margin: 50px 0 10px 40%;
-    border-radius: 50%;
+aside{
+    
+    background-image: url(./images/background_blue.png);
 }
-img#my_photo{
-    width: 200px;
-    margin-top: -33px;
+
+div figure{
+    padding-left: 50%;
 }
 
 #div1, .div2{
@@ -71,8 +70,9 @@ p{
 
 footer{
     padding: 40px 0 10% 10%;
+    background-color: #000;
 }
 
-a img{
-    width: 40px;
+figure, li, ul, h4{
+    display: inline;
 }
